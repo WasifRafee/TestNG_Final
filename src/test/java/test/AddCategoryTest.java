@@ -20,8 +20,8 @@ public class AddCategoryTest {
 	ListPage listPage;
 	
 	Random rnd= new Random();
-	String categoryName= "Wasif"+rnd.nextInt(100);
-	String duplicateCategoryName = "duplicate" + rnd.nextInt(100);
+	String categoryName= "Wasif"+rnd.nextInt(1000);
+	String duplicateCategoryName = "duplicate" + rnd.nextInt(1000);
 	
 	@BeforeMethod
 	public void runEverything() {
